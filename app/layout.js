@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
 				<div className='navbar'>
 					<div className='flex-1 w-96'>
 						<NavLink href='/' className='btn sm:btn-lg btn-ghost'>
-							LLC
+							<img src='logo.svg' className='h-full' />
 						</NavLink>
 					</div>
 					<div className='flex-none'>
