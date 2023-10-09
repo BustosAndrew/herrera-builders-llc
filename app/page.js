@@ -1,113 +1,243 @@
-import Image from 'next/image'
+import Image from "next/image"
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+	return (
+		<main className='flex min-h-screen flex-col items-center'>
+			<div className='carousel w-full h-screen'>
+				<div id='slide1' className='carousel-item relative w-full'>
+					<img src='test.webp' className='w-full object-cover	' />
+					<div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
+						<a href='#slide4' className='btn btn-accent btn-circle'>
+							❮
+						</a>
+						<a href='#slide2' className='btn btn-accent btn-circle'>
+							❯
+						</a>
+					</div>
+				</div>
+				<div id='slide2' className='carousel-item relative w-full'>
+					<img src='test.webp' className='w-full object-cover	' />
+					<div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
+						<a href='#slide1' className='btn btn-accent btn-circle'>
+							❮
+						</a>
+						<a href='#slide3' className='btn btn-accent btn-circle'>
+							❯
+						</a>
+					</div>
+				</div>
+				<div id='slide3' className='carousel-item relative w-full'>
+					<img src='test.webp' className='w-full object-cover	' />
+					<div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
+						<a href='#slide2' className='btn btn-accent btn-circle'>
+							❮
+						</a>
+						<a href='#slide4' className='btn btn-accent btn-circle'>
+							❯
+						</a>
+					</div>
+				</div>
+				<div id='slide4' className='carousel-item relative w-full'>
+					<img src='test.webp' className='w-full object-cover	' />
+					<div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
+						<a href='#slide3' className='btn btn-accent btn-circle'>
+							❮
+						</a>
+						<a href='#slide1' className='btn btn-accent btn-circle'>
+							❯
+						</a>
+					</div>
+				</div>
+			</div>
+			<div className='hero min-h-screen'>
+				<div className='hero-content text-center'>
+					<div className='max-w-3xl'>
+						<h1 className='text-6xl font-bold'>OUR WORK</h1>
+						<p className='py-6'>
+							We know how difficult it is to find reliable professionals that
+							have the knowledge to work in a number of different trades. We are
+							here to put your mind at ease, with the knowledge that is only
+							possible through 20+ years of experience in the construction
+							industry. Our secret is no secret, we value our clients and
+							provide affordable quality service with meticulous attention to
+							both detail and schedule requirements. We specialize in kitchen
+							and bathroom remodels, custom drywall, and new construction. While
+							most of our work is done in a residential setting we also complete
+							work in the commercial industry. We understand that a construction
+							project, no matter the size, when not managed correctly, has the
+							potential to cost far greater than what was expected at the onset
+							of planning. This is why we are here, to assist you every step of
+							the way, we take your vison and make it a reality.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div
+				className='hero h-96'
+				style={{
+					backgroundImage:
+						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+				}}
+			>
+				<div className='hero-overlay bg-opacity-60'></div>
+				<div className='hero-content text-center'>
+					<div className='max-w-md'>
+						<h1 className='text-5xl font-bold text-accent'>Framing</h1>
+					</div>
+				</div>
+			</div>
+			<div
+				className='hero h-96'
+				style={{
+					backgroundImage:
+						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+				}}
+			>
+				<div className='hero-overlay bg-opacity-60'></div>
+				<div className='hero-content text-center'>
+					<div className='max-w-md'>
+						<h1 className='text-5xl font-bold text-accent'>Bathrooms</h1>
+					</div>
+				</div>
+			</div>
+			<div
+				className='hero h-96'
+				style={{
+					backgroundImage:
+						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+				}}
+			>
+				<div className='hero-overlay bg-opacity-60'></div>
+				<div className='hero-content text-center'>
+					<div className='max-w-md'>
+						<h1 className='text-5xl font-bold text-accent'>
+							Interior & Exterior Painting
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div
+				className='hero h-96'
+				style={{
+					backgroundImage:
+						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+				}}
+			>
+				<div className='hero-overlay bg-opacity-60'></div>
+				<div className='hero-content text-center'>
+					<div className='max-w-md'>
+						<h1 className='text-5xl font-bold text-accent'>Concrete</h1>
+					</div>
+				</div>
+			</div>
+			<div
+				className='hero h-96'
+				style={{
+					backgroundImage:
+						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+				}}
+			>
+				<div className='hero-overlay bg-opacity-60'></div>
+				<div className='hero-content text-center'>
+					<div className='max-w-md'>
+						<h1 className='text-5xl font-bold text-accent'>Drywall</h1>
+					</div>
+				</div>
+			</div>
+			<div
+				className='hero h-96'
+				style={{
+					backgroundImage:
+						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+				}}
+			>
+				<div className='hero-overlay bg-opacity-60'></div>
+				<div className='hero-content text-center'>
+					<div className='max-w-md'>
+						<h1 className='text-5xl font-bold text-accent'>Home Additions</h1>
+					</div>
+				</div>
+			</div>
+			<div
+				className='hero h-96'
+				style={{
+					backgroundImage:
+						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+				}}
+			>
+				<div className='hero-overlay bg-opacity-60'></div>
+				<div className='hero-content text-center'>
+					<div className='max-w-md'>
+						<h1 className='text-5xl font-bold text-accent'>Demolition</h1>
+					</div>
+				</div>
+			</div>
+			<div className='hero min-h-screen max-w-3xl' id='contact'>
+				<div className='hero-content py-16 flex-col lg:flex-row-reverse lg:gap-10'>
+					<div className='text-center lg:text-left'>
+						<h1 className='text-5xl font-bold'>Contact Us</h1>
+						<p className='py-6'>
+							Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+							excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+							et a id nisi.
+						</p>
+					</div>
+					<div className='card flex-shrink-0 w-full max-w-sm shadow-xl bg-base-100'>
+						<form className='card-body'>
+							<div className='form-control'>
+								<label className='label'>
+									<span className='label-text'>Name *</span>
+								</label>
+								<input
+									type='text'
+									placeholder='Jane Doe'
+									className='input input-bordered'
+									required
+								/>
+							</div>
+							<div className='form-control'>
+								<label className='label'>
+									<span className='label-text'>Address</span>
+								</label>
+								<input
+									type='text'
+									placeholder='123 Main St.'
+									className='input input-bordered'
+								/>
+							</div>
+							<div className='form-control'>
+								<label className='label'>
+									<span className='label-text'>Email *</span>
+								</label>
+								<input type='email' className='input input-bordered' required />
+							</div>
+							<div className='form-control'>
+								<label className='label'>
+									<span className='label-text'>Phone</span>
+								</label>
+								<input
+									type='tel'
+									placeholder='123-456-7890'
+									className='input input-bordered'
+								/>
+							</div>
+							<div className='form-control'>
+								<label className='label'>
+									<span className='label-text'>Your Message *</span>
+								</label>
+								<textarea
+									className='textarea textarea-bordered'
+									rows={5}
+									required
+								></textarea>
+							</div>
+							<div className='form-control mt-6'>
+								<button className='btn btn-accent'>Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+	)
 }
