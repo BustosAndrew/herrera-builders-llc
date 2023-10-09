@@ -13,14 +13,20 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en' className='scroll-smooth'>
 			<body>
-				<div className='navbar'>
-					<div className='flex-1 w-96'>
-						<NavLink href='/' className='btn sm:btn-lg btn-ghost'>
+				<div className='navbar flex-wrap sm:flex-nowrap justify-between'>
+					<div className='sm:flex-1'>
+						<NavLink
+							href='/'
+							className='btn btn-lg btn-ghost sm:h-[200px] h-[100px]'
+						>
 							<img src='logo.svg' className='h-full' />
 						</NavLink>
 					</div>
-					<div className='flex-none'>
-						<NavLink className='btn btn-neutral normal-case' href='#contact'>
+					<div className='flex-none sm:self-end'>
+						<NavLink
+							className='btn btn-sm sm:btn-md btn-neutral normal-case'
+							href='#contact'
+						>
 							Get In Touch
 						</NavLink>
 					</div>
