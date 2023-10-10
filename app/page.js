@@ -5,11 +5,11 @@ export default function Home() {
 	return (
 		<main className='flex min-h-screen flex-col items-center'>
 			<Slider />
-			<div className='hero min-h-screen'>
+			<div className='hero min-h-fit py-10'>
 				<div className='hero-content text-center'>
 					<div className='max-w-3xl'>
 						<h1 className='text-6xl font-bold'>OUR WORK</h1>
-						<p className='py-6'>
+						<p className='text-lg'>
 							We know how difficult it is to find reliable professionals that
 							have the knowledge to work in a number of different trades. We are
 							here to put your mind at ease, with the knowledge that is only

@@ -13,16 +13,19 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en' className='scroll-smooth'>
 			<body>
-				<div className='navbar flex-wrap sm:flex-nowrap justify-between'>
-					<div className='sm:flex-1'>
+				<div className='navbar sm:flex-nowrap'>
+					<div className='navbar-start'>
 						<NavLink
 							href='/'
-							className='btn btn-lg btn-ghost sm:h-[200px] h-[100px]'
+							className='btn btn-lg btn-ghost md:h-[200px] h-[90px]'
 						>
 							<img src='logo.svg' className='h-full' />
 						</NavLink>
 					</div>
-					<div className='flex-none sm:self-end'>
+					<div className='navbar-center'>
+						<p className='font-bold sm:text-2xl'>LICENSE #</p>
+					</div>
+					<div className='navbar-end'>
 						<NavLink
 							className='btn btn-sm sm:btn-md btn-neutral normal-case'
 							href='#contact'
@@ -34,7 +37,7 @@ export default function RootLayout({ children }) {
 				{children}
 				<footer className='footer footer-center p-10 border-t'>
 					<aside>
-						<img src='logo.svg' className='w-1/2 sm:w-1/5' />
+						<img src='logo.svg' className='w-1/2' />
 						<p className='font-bold'>
 							Herrera Builders LLC <br />
 							Providing reliable construction service since 1992
