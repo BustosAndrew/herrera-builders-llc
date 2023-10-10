@@ -38,7 +38,12 @@ export default function Home() {
 				<div className='hero-overlay bg-opacity-60'></div>
 				<div className='hero-content text-center'>
 					<div className='max-w-md'>
-						<h1 className='text-5xl font-bold text-accent'>Framing</h1>
+						<a
+							href='#contact'
+							className='hover:underline text-5xl font-bold text-accent'
+						>
+							Framing
+						</a>
 					</div>
 				</div>
 			</div>
@@ -52,7 +57,12 @@ export default function Home() {
 				<div className='hero-overlay bg-opacity-60'></div>
 				<div className='hero-content text-center'>
 					<div className='max-w-md'>
-						<h1 className='text-5xl font-bold text-accent'>Bathrooms</h1>
+						<a
+							href='#contact'
+							className='hover:underline text-5xl font-bold text-accent'
+						>
+							Bathrooms
+						</a>
 					</div>
 				</div>
 			</div>
@@ -66,9 +76,12 @@ export default function Home() {
 				<div className='hero-overlay bg-opacity-60'></div>
 				<div className='hero-content text-center'>
 					<div className='max-w-md'>
-						<h1 className='text-5xl font-bold text-accent'>
+						<a
+							href='#contact'
+							className='hover:underline text-5xl font-bold text-accent'
+						>
 							Interior & Exterior Painting
-						</h1>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -82,7 +95,12 @@ export default function Home() {
 				<div className='hero-overlay bg-opacity-60'></div>
 				<div className='hero-content text-center'>
 					<div className='max-w-md'>
-						<h1 className='text-5xl font-bold text-accent'>Concrete</h1>
+						<a
+							href='#contact'
+							className='hover:underline text-5xl font-bold text-accent'
+						>
+							Concrete
+						</a>
 					</div>
 				</div>
 			</div>
@@ -96,7 +114,12 @@ export default function Home() {
 				<div className='hero-overlay bg-opacity-60'></div>
 				<div className='hero-content text-center'>
 					<div className='max-w-md'>
-						<h1 className='text-5xl font-bold text-accent'>Drywall</h1>
+						<a
+							href='#contact'
+							className='hover:underline text-5xl font-bold text-accent'
+						>
+							Drywall
+						</a>
 					</div>
 				</div>
 			</div>
@@ -110,7 +133,12 @@ export default function Home() {
 				<div className='hero-overlay bg-opacity-60'></div>
 				<div className='hero-content text-center'>
 					<div className='max-w-md'>
-						<h1 className='text-5xl font-bold text-accent'>Home Additions</h1>
+						<a
+							href='#contact'
+							className='hover:underline text-5xl font-bold text-accent'
+						>
+							Home Additions
+						</a>
 					</div>
 				</div>
 			</div>
@@ -124,7 +152,12 @@ export default function Home() {
 				<div className='hero-overlay bg-opacity-60'></div>
 				<div className='hero-content text-center'>
 					<div className='max-w-md'>
-						<h1 className='text-5xl font-bold text-accent'>Demolition</h1>
+						<a
+							href='#contact'
+							className='hover:underline text-5xl font-bold text-accent'
+						>
+							Demolition
+						</a>
 					</div>
 				</div>
 			</div>
@@ -138,7 +171,10 @@ export default function Home() {
 							et a id nisi.
 						</p>
 					</div>
-					<div className='card flex-shrink-0 w-full max-w-sm shadow-xl bg-base-100'>
+					<div
+						id='contact'
+						className='card flex-shrink-0 w-full max-w-sm shadow-xl bg-base-100'
+					>
 						<form className='card-body'>
 							<div className='form-control'>
 								<label className='label'>

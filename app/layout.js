@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en' className='scroll-smooth'>
 			<body>
-				<div className='navbar sm:flex-nowrap'>
-					<div className='navbar-start'>
+				<div className='navbar gap-8 sm:gap-0 flex-col sm:flex-row justify-center items-center'>
+					<div className='sm:navbar-start'>
 						<NavLink
 							href='/'
 							className='btn btn-lg btn-ghost md:h-[200px] h-[90px]'
@@ -22,10 +22,15 @@ export default function RootLayout({ children }) {
 							<img src='logo.svg' className='h-full' />
 						</NavLink>
 					</div>
-					<div className='navbar-center'>
+					<div className='sm:navbar-center flex flex-col text-center max-w-[270px]'>
 						<p className='font-bold sm:text-2xl'>LICENSE #</p>
+						<br />
+						<p className='sm:text-base text-sm sm:w-full w-1/2'>
+							We know how difficult it is to find reliable professionals that
+							have the knowledge to work in a number of different trades.
+						</p>
 					</div>
-					<div className='navbar-end'>
+					<div className='sm:navbar-end'>
 						<NavLink
 							className='btn btn-sm sm:btn-md btn-neutral normal-case'
 							href='#contact'
