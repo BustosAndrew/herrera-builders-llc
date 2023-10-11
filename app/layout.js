@@ -24,10 +24,14 @@ export default function RootLayout({ children }) {
 					</div>
 					<div className='sm:navbar-center flex flex-col text-center max-w-[270px]'>
 						<p className='font-bold sm:text-2xl'>LICENSE #</p>
-						<br />
 						<p className='sm:text-base text-sm sm:w-full w-1/2'>
-							We know how difficult it is to find reliable professionals that
-							have the knowledge to work in a number of different trades.
+							Family owned / ran business with over 10 years experience.
+							Specialized in, but not limited to, concrete and framing. Handyman
+							work available too! Turning your home visions into reality!{" "}
+							<a href='#contact' className='link link-accent'>
+								Contact us
+							</a>
+							.
 						</p>
 					</div>
 					<div className='sm:navbar-end'>
