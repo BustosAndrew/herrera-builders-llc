@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
 						<img src='logo.svg' className='w-1/2' />
 						<p className='font-bold'>
 							Herrera Builders LLC <br />
-							Providing reliable construction service since 1992
+							Providing reliable construction services for 10+ years
 						</p>
 						<p>Copyright © 2023 - All rights reserved</p>
 					</aside>

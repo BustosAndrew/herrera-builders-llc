@@ -10,20 +10,13 @@ export default function Home() {
 					<div className='max-w-3xl'>
 						<h1 className='text-6xl font-bold'>OUR WORK</h1>
 						<p className='text-lg'>
-							We know how difficult it is to find reliable professionals that
-							have the knowledge to work in a number of different trades. We are
-							here to put your mind at ease, with the knowledge that is only
-							possible through 20+ years of experience in the construction
-							industry. Our secret is no secret, we value our clients and
-							provide affordable quality service with meticulous attention to
-							both detail and schedule requirements. We specialize in kitchen
-							and bathroom remodels, custom drywall, and new construction. While
-							most of our work is done in a residential setting we also complete
-							work in the commercial industry. We understand that a construction
-							project, no matter the size, when not managed correctly, has the
-							potential to cost far greater than what was expected at the onset
-							of planning. This is why we are here, to assist you every step of
-							the way, we take your vison and make it a reality.
+							At Herrera Builders LLC, we believe that construction is more than
+							a business; it's a calling. It's about building the future, one
+							project at a time. From residential construction to concrete work,
+							framing expertise, structural repairs, and more, each project
+							represents a labor of love, demonstrating our passion for turning
+							blueprints into reality. We invite you to join us in this journey
+							of creating lasting projects and fulfilling dreams.
 						</p>
 					</div>
 				</div>
@@ -39,7 +32,39 @@ export default function Home() {
 				<div className='hero-content text-center'>
 					<div className='max-w-md'>
 						<a href='#contact' className='link link-accent text-5xl font-bold'>
+							Concrete
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				className='hero h-96'
+				style={{
+					backgroundImage:
+						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+				}}
+			>
+				<div className='hero-overlay bg-opacity-60'></div>
+				<div className='hero-content text-center'>
+					<div className='max-w-md'>
+						<a href='#contact' className='link link-accent text-5xl font-bold'>
 							Framing
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				className='hero h-96'
+				style={{
+					backgroundImage:
+						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+				}}
+			>
+				<div className='hero-overlay bg-opacity-60'></div>
+				<div className='hero-content text-center'>
+					<div className='max-w-md'>
+						<a href='#contact' className='link link-accent text-5xl font-bold'>
+							Demo
 						</a>
 					</div>
 				</div>
@@ -71,54 +96,6 @@ export default function Home() {
 				<div className='hero-content text-center'>
 					<div className='max-w-md'>
 						<a href='#contact' className='link link-accent text-5xl font-bold'>
-							Interior & Exterior Painting
-						</a>
-					</div>
-				</div>
-			</div>
-			<div
-				className='hero h-96'
-				style={{
-					backgroundImage:
-						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
-				}}
-			>
-				<div className='hero-overlay bg-opacity-60'></div>
-				<div className='hero-content text-center'>
-					<div className='max-w-md'>
-						<a href='#contact' className='link link-accent text-5xl font-bold'>
-							Concrete
-						</a>
-					</div>
-				</div>
-			</div>
-			<div
-				className='hero h-96'
-				style={{
-					backgroundImage:
-						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
-				}}
-			>
-				<div className='hero-overlay bg-opacity-60'></div>
-				<div className='hero-content text-center'>
-					<div className='max-w-md'>
-						<a href='#contact' className='link link-accent text-5xl font-bold'>
-							Drywall
-						</a>
-					</div>
-				</div>
-			</div>
-			<div
-				className='hero h-96'
-				style={{
-					backgroundImage:
-						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
-				}}
-			>
-				<div className='hero-overlay bg-opacity-60'></div>
-				<div className='hero-content text-center'>
-					<div className='max-w-md'>
-						<a href='#contact' className='link link-accent text-5xl font-bold'>
 							Home Additions
 						</a>
 					</div>
@@ -135,7 +112,23 @@ export default function Home() {
 				<div className='hero-content text-center'>
 					<div className='max-w-md'>
 						<a href='#contact' className='link link-accent text-5xl font-bold'>
-							Demolition
+							Interior & Exterior Painting
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				className='hero h-96'
+				style={{
+					backgroundImage:
+						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+				}}
+			>
+				<div className='hero-overlay bg-opacity-60'></div>
+				<div className='hero-content text-center'>
+					<div className='max-w-md'>
+						<a href='#contact' className='link link-accent text-5xl font-bold'>
+							Drywall
 						</a>
 					</div>
 				</div>
