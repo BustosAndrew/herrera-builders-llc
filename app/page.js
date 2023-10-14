@@ -11,12 +11,12 @@ export default function Home() {
 						<h1 className='text-6xl font-bold'>OUR WORK</h1>
 						<p className='text-lg'>
 							At Herrera Builders LLC, we believe that construction is more than
-							a business; it's a calling. It's about building the future, one
-							project at a time. From residential construction to concrete work,
-							framing expertise, structural repairs, and more, each project
-							represents a labor of love, demonstrating our passion for turning
-							blueprints into reality. We invite you to join us in this journey
-							of creating lasting projects and fulfilling dreams.
+							a business; it&apos;s a calling. It&apos;s about building the
+							future, one project at a time. From residential construction to
+							concrete work, framing expertise, structural repairs, and more,
+							each project represents a labor of love, demonstrating our passion
+							for turning blueprints into reality. We invite you to join us in
+							this journey of creating lasting projects and fulfilling dreams.
 						</p>
 					</div>
 				</div>
