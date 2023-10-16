@@ -30,13 +30,13 @@ export const Slider = () => {
 				modules={[Autoplay, Pagination]}
 			>
 				<SwiperSlide>
-					<img src='test.webp' className='h-screen' />
+					<img src='webpic3.webp' className='h-screen' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src='test.webp' className='h-screen' />
+					<img src='webpic4.webp' className='h-screen' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src='test.webp' className='h-screen' />
+					<img src='webpic6.jpg' className='h-screen' />
 				</SwiperSlide>
 			</Swiper>
 		</>

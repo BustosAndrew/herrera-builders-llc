@@ -6,7 +6,8 @@ import NavLink from "next/link"
 
 export const metadata = {
 	title: "Herrera Builders LLC",
-	description: "Providing reliable construction service since 1992.",
+	description:
+		"Providing reliable construction service since 1992. Contact us today for a free quote!",
 }
 
 export default function RootLayout({ children }) {
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
 						</NavLink>
 					</div>
 					<div className='sm:navbar-center flex flex-col text-center max-w-[270px]'>
-						<p className='font-bold text-2xl'>LICENSE #</p>
+						<p className='font-bold text-2xl'>LLC</p>
 						<p className='w-full'>
 							Family owned / ran business with over 10 years experience.
 							Specialized in, but not limited to, concrete and framing. Handyman

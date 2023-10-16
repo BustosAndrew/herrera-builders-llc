@@ -64,6 +64,22 @@ export default function Home() {
 				<div className='hero-content text-center'>
 					<div className='max-w-md'>
 						<a href='#contact' className='link link-accent text-5xl font-bold'>
+							Fencing
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				className='hero h-96'
+				style={{
+					backgroundImage:
+						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+				}}
+			>
+				<div className='hero-overlay bg-opacity-60'></div>
+				<div className='hero-content text-center'>
+					<div className='max-w-md'>
+						<a href='#contact' className='link link-accent text-5xl font-bold'>
 							Demo
 						</a>
 					</div>
@@ -138,12 +154,13 @@ export default function Home() {
 					<div className='text-center lg:text-left'>
 						<h1 className='text-5xl font-bold'>Contact Us</h1>
 						<p className='py-6'>
-							Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-							excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-							et a id nisi.
+							We&apos;re eager to hear from you and discuss how we can bring
+							your construction project to life. Whether you have a question,
+							need a quote, or want to explore partnership opportunities, our
+							team is here to assist you.
 						</p>
 					</div>
-					<div
+					{/* <div
 						id='contact'
 						className='card flex-shrink-0 w-full max-w-sm shadow-xl bg-base-100'
 					>
@@ -199,7 +216,8 @@ export default function Home() {
 								<button className='btn btn-accent'>Submit</button>
 							</div>
 						</form>
-					</div>
+					</div> */}
+					Please send all inquiries to herrerabuilderllc@gmail.com for now.
 				</div>
 			</div>
 		</main>
