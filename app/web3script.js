@@ -62,7 +62,11 @@ export const Web3Script = () => {
 				noValidate
 				onSubmit={handleSubmit}
 			>
-				<input type='hidden' name='access_key' value='' />
+				<input
+					type='hidden'
+					name='access_key'
+					value='f3cad2fe-3990-4bad-b33b-1ba08a1ab435'
+				/>
 				<div className='form-control'>
 					<label className='label'>
 						<span className='label-text'>Name *</span>
