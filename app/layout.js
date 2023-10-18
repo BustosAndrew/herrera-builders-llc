@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
 					</div>
 					<div className='sm:navbar-end'>
 						<NavLink
-							className='btn btn-sm sm:btn-md btn-neutral normal-case'
+							className='btn btn-sm sm:btn-md btn-neutral normal-case sm:m-0 mb-4'
 							href='#contact'
 						>
 							Get In Touch
