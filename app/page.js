@@ -23,7 +23,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div
-				className='hero h-96'
+				className='hero h-96 max-w-full'
 				style={{
 					backgroundImage:
 						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
@@ -39,7 +39,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div
-				className='hero h-96'
+				className='hero h-96 max-w-full'
 				style={{
 					backgroundImage:
 						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
@@ -55,7 +55,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div
-				className='hero h-96'
+				className='hero h-96 max-w-full'
 				style={{
 					backgroundImage:
 						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
@@ -71,7 +71,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div
-				className='hero h-96'
+				className='hero h-96 max-w-full'
 				style={{
 					backgroundImage:
 						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
@@ -87,7 +87,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div
-				className='hero h-96'
+				className='hero h-96 max-w-full'
 				style={{
 					backgroundImage:
 						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
@@ -103,7 +103,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div
-				className='hero h-96'
+				className='hero h-96 max-w-full'
 				style={{
 					backgroundImage:
 						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
@@ -119,7 +119,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div
-				className='hero h-96'
+				className='hero h-96 max-w-full'
 				style={{
 					backgroundImage:
 						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
@@ -135,7 +135,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div
-				className='hero h-96'
+				className='hero h-96 max-w-full'
 				style={{
 					backgroundImage:
 						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",

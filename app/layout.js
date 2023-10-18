@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang='en' className='scroll-smooth'>
-			<body>
+			<body className=''>
 				<div className='navbar gap-8 sm:gap-0 flex-col sm:flex-row justify-center items-center'>
 					<div className='sm:navbar-start'>
 						<NavLink
