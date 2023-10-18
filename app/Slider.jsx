@@ -1,11 +1,11 @@
 "use client"
 
 import { Swiper, SwiperSlide } from "swiper/react"
+import "./globals.css"
 
 // Import Swiper styles
 import "swiper/css"
 import "swiper/css/pagination"
-import "swiper/css/navigation"
 
 import { Autoplay, Pagination } from "swiper/modules"
 
@@ -30,13 +30,13 @@ export const Slider = () => {
 				modules={[Autoplay, Pagination]}
 			>
 				<SwiperSlide>
-					<img src='webpic3.webp' className='h-screen' />
+					<img src='webpic3.webp' className='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src='webpic4.webp' className='h-screen' />
+					<img src='webpic4.webp' className='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src='webpic6.jpg' className='h-screen' />
+					<img src='webpic6.jpg' className='' />
 				</SwiperSlide>
 			</Swiper>
 		</>
