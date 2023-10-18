@@ -15,6 +15,9 @@ export const Web3Script = () => {
 			result.classList.add("text-red-500")
 			result.innerHTML = "Please fill out captcha field."
 			return
+		} else {
+			result.classList.remove("text-red-500")
+			result.innerHTML = ""
 		}
 
 		form.classList.add("was-validated")
@@ -135,7 +138,11 @@ export const Web3Script = () => {
 						name='message'
 					></textarea>
 				</div>
-				<div className='h-captcha mt-2' data-captcha='true'></div>
+				<div
+					className='h-captcha'
+					data-captcha='true'
+					data-size='compact'
+				></div>
 				<div className='form-control'>
 					<button type='submit' className='btn btn-accent'>
 						Submit

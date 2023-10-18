@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-iframe {
+/* iframe {
 	max-width: 100%;
-}
+} */
 
 .swiper {
 	width: 100%;
