@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Slider } from "./Slider"
+import { Web3Script } from "./web3script.js"
 
 export default function Home() {
 	return (
@@ -160,64 +161,7 @@ export default function Home() {
 							team is here to assist you.
 						</p>
 					</div>
-					{/* <div
-						id='contact'
-						className='card flex-shrink-0 w-full max-w-sm shadow-xl bg-base-100'
-					>
-						<form className='card-body'>
-							<div className='form-control'>
-								<label className='label'>
-									<span className='label-text'>Name *</span>
-								</label>
-								<input
-									type='text'
-									placeholder='Jane Doe'
-									className='input input-bordered'
-									required
-								/>
-							</div>
-							<div className='form-control'>
-								<label className='label'>
-									<span className='label-text'>Address</span>
-								</label>
-								<input
-									type='text'
-									placeholder='123 Main St.'
-									className='input input-bordered'
-								/>
-							</div>
-							<div className='form-control'>
-								<label className='label'>
-									<span className='label-text'>Email *</span>
-								</label>
-								<input type='email' className='input input-bordered' required />
-							</div>
-							<div className='form-control'>
-								<label className='label'>
-									<span className='label-text'>Phone</span>
-								</label>
-								<input
-									type='tel'
-									placeholder='123-456-7890'
-									className='input input-bordered'
-								/>
-							</div>
-							<div className='form-control'>
-								<label className='label'>
-									<span className='label-text'>Your Message *</span>
-								</label>
-								<textarea
-									className='textarea textarea-bordered'
-									rows={5}
-									required
-								></textarea>
-							</div>
-							<div className='form-control mt-6'>
-								<button className='btn btn-accent'>Submit</button>
-							</div>
-						</form>
-					</div> */}
-					Please send all inquiries to herrerabuilderllc@gmail.com for now.
+					<Web3Script />
 				</div>
 			</div>
 		</main>

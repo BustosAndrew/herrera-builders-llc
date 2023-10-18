@@ -1,6 +1,7 @@
 import "./globals.css"
 import { Inter } from "next/font/google"
 import NavLink from "next/link"
+import Script from "next/script"
 
 // const inter = Inter({ subsets: ["latin"] })
 
@@ -45,6 +46,7 @@ export default function RootLayout({ children }) {
 					</div>
 				</div>
 				{children}
+				<Script src='https://web3forms.com/client/script.js' async defer />
 				<footer className='footer footer-center p-10 border-t'>
 					<aside>
 						<img src='logo.svg' className='w-1/2' />
