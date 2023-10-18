@@ -5,7 +5,7 @@ import { Web3Script } from "./web3script.js"
 export default function Home() {
 	return (
 		<main className='flex min-h-screen flex-col items-center'>
-			{/* <Slider /> */}
+			<Slider />
 			<div className='hero min-h-fit py-10'>
 				<div className='hero-content text-center'>
 					<div className='max-w-3xl'>
@@ -151,7 +151,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div className='hero min-h-screen' id='contact'>
-				<div className='hero-content py-16 flex-col lg:flex-row-reverse lg:gap-10'>
+				<div className='hero-content py-16 flex-col max-w-3xl lg:flex-row-reverse lg:gap-10'>
 					<div className='text-center lg:text-left'>
 						<h1 className='text-5xl font-bold'>Contact Us</h1>
 						<p className='py-6'>
