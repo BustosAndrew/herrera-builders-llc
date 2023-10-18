@@ -4,8 +4,19 @@ export const Web3Script = () => {
 	const handleSubmit = (e) => {
 		const form = document.getElementById("form")
 		const result = document.getElementById("result")
+		const hCaptcha = form.querySelector(
+			"textarea[name=h-captcha-response]"
+		).value
 
 		e.preventDefault()
+
+		if (!hCaptcha) {
+			e.preventDefault()
+			result.classList.add("text-red-500")
+			result.innerHTML = "Please fill out captcha field."
+			return
+		}
+
 		form.classList.add("was-validated")
 		if (!form.checkValidity()) {
 			form.querySelectorAll(":invalid")[0].focus()
