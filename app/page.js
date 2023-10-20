@@ -89,8 +89,9 @@ export default function Home() {
 			<div
 				className='hero h-96 max-w-full'
 				style={{
-					backgroundImage:
-						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+					backgroundImage: "url(/bathroom.jpg)",
+					backgroundSize: "cover",
+					backgroundRepeat: "no-repeat",
 				}}
 			>
 				<div className='hero-overlay bg-opacity-60'></div>
@@ -137,8 +138,9 @@ export default function Home() {
 			<div
 				className='hero h-96 max-w-full'
 				style={{
-					backgroundImage:
-						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+					backgroundImage: "url(/drywall.jpg)",
+					backgroundSize: "cover",
+					backgroundRepeat: "no-repeat",
 				}}
 			>
 				<div className='hero-overlay bg-opacity-60'></div>
