@@ -41,8 +41,7 @@ export default function Home() {
 			<div
 				className='hero h-96 max-w-full'
 				style={{
-					backgroundImage:
-						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+					backgroundImage: "url(/framinn.jpg)",
 				}}
 			>
 				<div className='hero-overlay bg-opacity-60'></div>
@@ -57,8 +56,7 @@ export default function Home() {
 			<div
 				className='hero h-96 max-w-full'
 				style={{
-					backgroundImage:
-						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+					backgroundImage: "url(/fence.jpg)",
 				}}
 			>
 				<div className='hero-overlay bg-opacity-60'></div>
@@ -73,8 +71,7 @@ export default function Home() {
 			<div
 				className='hero h-96 max-w-full'
 				style={{
-					backgroundImage:
-						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+					backgroundImage: "url(/demol.jpg)",
 				}}
 			>
 				<div className='hero-overlay bg-opacity-60'></div>
@@ -89,7 +86,7 @@ export default function Home() {
 			<div
 				className='hero h-96 max-w-full'
 				style={{
-					backgroundImage: "url(/bathroom.jpg)",
+					backgroundImage: "url(/brr2.jpg)",
 					backgroundSize: "cover",
 					backgroundRepeat: "no-repeat",
 				}}
@@ -106,8 +103,7 @@ export default function Home() {
 			<div
 				className='hero h-96 max-w-full'
 				style={{
-					backgroundImage:
-						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+					backgroundImage: "url(/hadd.jpg)",
 				}}
 			>
 				<div className='hero-overlay bg-opacity-60'></div>
@@ -122,8 +118,9 @@ export default function Home() {
 			<div
 				className='hero h-96 max-w-full'
 				style={{
-					backgroundImage:
-						"url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+					backgroundImage: "url(/paint.jpg)",
+					backgroundPosition: "0% 25%",
+					backgroundRepeat: "no-repeat",
 				}}
 			>
 				<div className='hero-overlay bg-opacity-60'></div>
