@@ -135,7 +135,7 @@ export default function Home() {
 			<div
 				className='hero h-96 max-w-full'
 				style={{
-					backgroundImage: "url(/drywall.jpg)",
+					backgroundImage: "url(/drw.jpg)",
 					backgroundSize: "cover",
 					backgroundRepeat: "no-repeat",
 				}}

@@ -44,6 +44,9 @@ export const Slider = () => {
 				<SwiperSlide>
 					<img src='/paint.jpg' className='' />
 				</SwiperSlide>
+				<SwiperSlide>
+					<img src='/drw.jpg' className='' />
+				</SwiperSlide>
 			</Swiper>
 		</>
 	)
