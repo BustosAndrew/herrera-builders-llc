@@ -38,6 +38,12 @@ export const Slider = () => {
 				<SwiperSlide>
 					<img src='/fence.jpg' className='' />
 				</SwiperSlide>
+				<SwiperSlide>
+					<img src='/framinn.jpg' className='' />
+				</SwiperSlide>
+				<SwiperSlide>
+					<img src='/paint.jpg' className='' />
+				</SwiperSlide>
 			</Swiper>
 		</>
 	)
