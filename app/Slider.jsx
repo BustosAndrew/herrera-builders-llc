@@ -26,6 +26,8 @@ export const Slider = () => {
 					delay: 2500,
 					disableOnInteraction: false,
 				}}
+				loop={true}
+				loopPreventsSliding={false}
 				pagination={pagination}
 				modules={[Autoplay, Pagination]}
 			>
