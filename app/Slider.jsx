@@ -33,7 +33,7 @@ export const Slider = () => {
 					<img src='/brr2.jpg' className='' />
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src='/drywall.jpg' className='' />
+					<img src='/webpic6.jpg' className='' />
 				</SwiperSlide>
 				<SwiperSlide>
 					<img src='/fence.jpg' className='' />
