@@ -4,21 +4,21 @@ export const Web3Script = () => {
 	const handleSubmit = (e) => {
 		const form = document.getElementById("form")
 		const result = document.getElementById("result")
-		const hCaptcha = form.querySelector(
-			"textarea[name=h-captcha-response]"
-		).value
+		// const hCaptcha = form.querySelector(
+		// 	"textarea[name=h-captcha-response]"
+		// ).value
 
 		e.preventDefault()
 
-		if (!hCaptcha) {
-			e.preventDefault()
-			result.classList.add("text-red-500")
-			result.innerHTML = "Please fill out captcha field."
-			return
-		} else {
-			result.classList.remove("text-red-500")
-			result.innerHTML = ""
-		}
+		// if (!hCaptcha) {
+		// 	e.preventDefault()
+		// 	result.classList.add("text-red-500")
+		// 	result.innerHTML = "Please fill out captcha field."
+		// 	return
+		// } else {
+		// 	result.classList.remove("text-red-500")
+		// 	result.innerHTML = ""
+		// }
 
 		form.classList.add("was-validated")
 		if (!form.checkValidity()) {
@@ -138,11 +138,6 @@ export const Web3Script = () => {
 						name='message'
 					></textarea>
 				</div>
-				<div
-					className='h-captcha'
-					data-captcha='true'
-					data-size='compact'
-				></div>
 				<div className='form-control'>
 					<button type='submit' className='btn btn-accent'>
 						Submit
