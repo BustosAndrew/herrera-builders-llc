@@ -152,6 +152,7 @@ export default function Home() {
 			<div className='hero min-h-screen' id='contact'>
 				<div className='hero-content py-16 flex-col max-w-3xl lg:flex-row-reverse lg:gap-10'>
 					<div className='text-center lg:text-left'>
+						<img src='/logo.svg' />
 						<h1 className='text-5xl font-bold'>Contact Us</h1>
 						<p className='py-6'>
 							We&apos;re eager to hear from you and discuss how we can bring
